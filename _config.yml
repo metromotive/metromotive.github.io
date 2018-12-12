@@ -9,7 +9,7 @@ name: Metromotive
 description: 
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/metromotive/metromotive.github.io/master/Logo.svg
+avatar: https://raw.githubusercontent.com/metromotive/metromotive.github.io/master/Logo.svg?sanitize=true
 
 #
 # Flags below are optional
