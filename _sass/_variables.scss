@@ -16,7 +16,7 @@ $white: #fff;
 
 // Font stacks
 $titles: "Gotham Rounded", Nunito, sans-serif;
-$text: "EB Garamond", Georgia, serif;
+$text: "EB Garamond", "Times New Roman", serif;
 
 // Mobile breakpoints
 @mixin mobile {
