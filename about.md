@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Metromotive is a side project of Frank Schmitt, with the plan of exploring ideas around transportation in small and larger cities. 
 
-### More Information
+### Contact
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+[info@metromotive.com](mailto:info@metromotive.com)
