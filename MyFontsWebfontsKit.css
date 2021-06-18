@@ -23,6 +23,6 @@
   
 @font-face {
   font-family: "TTNormsPro-DemiBold";
-  src: url('webFonts/TTNormsProDemiBold/font.woff2') format('woff2'), url('webFonts/TTNormsProDemiBold/font.woff') format('woff');
+  src: url('https://cdn.metromotive.com/TTNormsProDemiBold/font.woff2') format('woff2'), url('https://cdn.metromotive.com/TTNormsProDemiBold/font.woff') format('woff');
 }
 
