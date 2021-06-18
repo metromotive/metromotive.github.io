@@ -1,0 +1,28 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4105949, 2021-06-18T18:18:21-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: TTNormsPro-DemiBold by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-norms/demibold/
+ * Copyright: Copyright (c) 2016-2019 by TypeType. Designers Ivan Gladkikh, Pavel Emelyanov. Technical designers Vika Usmanova, Olexa Volochay, Nadyr Rakhimov, Yuri Nakonechny. All rights reserved.
+ * 
+ * 
+ * 
+ * © 2021 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3ea6dd");
+  
+@font-face {
+  font-family: "TTNormsPro-DemiBold";
+  src: url('webFonts/TTNormsProDemiBold/font.woff2') format('woff2'), url('webFonts/TTNormsProDemiBold/font.woff') format('woff');
+}
+
