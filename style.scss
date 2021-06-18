@@ -46,7 +46,6 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 30px;
-  text-transform: uppercase;
   a {
     color: inherit;
   }
@@ -199,7 +198,7 @@ img {
   font-family: $titles;
   font-size: 36px;
   line-height: 70px;
-  letter-spacing: 6px;
+  text-transform: uppercase;
 }
 
 .site-description {
