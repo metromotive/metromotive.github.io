@@ -265,6 +265,11 @@ nav {
   .comments {
     margin-top: 10px;
   }
+	
+  sup .footnote {
+    font-size: 12px;
+    vertical-align: text-top	  
+  }
 
   .read-more {
     font-family: $titles;
