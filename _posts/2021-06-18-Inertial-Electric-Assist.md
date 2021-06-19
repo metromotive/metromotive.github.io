@@ -20,9 +20,15 @@ One of the difficulties in building an electric assist vehicle is measuring the 
 
 An alternative is to instead measure the acceleration of the vehicle using an inexpensive inertial measurement unit (IMU) circuit, and then measure, estimate, or be told the (gross) mass of the vehicle. Via Newton’s second law, we can arrive at the sum total of all of the forces acting on the vehicle. We then have to subtract all of the non-human forces applied to the vehicle to arrive at the human contribution to the propulsion force. 
 
-The forces acting on a typical vehicle will be gravity ($$F_g$$, the mass times the acceleration due to gravity, i.e. $$g$$), an opposing normal force from the ground ($$F_N$$), force from the propulsion and braking system ($$F_p$$), resistance from friction ($$F_r$$, proportional to velocity), and resistance from whatever fluid the vehicle is moving through ($$F_d$$, proportional to the square of velocity). 
+The forces acting on a typical vehicle will be force from the propulsion and braking system ($$F_p$$), resistance from friction ($$F_r$$, proportional to velocity), and resistance from whatever fluid the vehicle is moving through ($$F_d$$, proportional to the square of velocity). The force of gravity also plays a role, but because an IMU measures gravity as part of the overall acceleration, we can ignore it for purposes of this discussion. 
 
-For an electric assist vehicle, if we can measure or estimate the non-propulsion forces on the vehicle, we can calculate the propulsion force, subtract the force produced by the motor, and thereby arrive at the force produced by the human (or requested by the human via their control over the friction brakes).
+For an electric assist vehicle, we also want to decompose the propulsion force into the component provided by the motor ($$F_{motor}$$) and the part provided by the human ($$F_{human}$$), or requested by the human via their control over the friction brakes). So the overall equation is:
+
+$$am = F_{motor} + F_{human} + F_r + F_d$$
+
+Combining this with the basic equation of an electric assist vehicle, the desired force of the motor for the next time step can be calculated:
+
+$$F_{motor}' = gain \times (am - (F_r + F_d + F_{motor}))$$
 
 ## Variables to be Measured or Estimated
 
