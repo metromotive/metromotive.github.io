@@ -8,7 +8,7 @@ Over the last couple of decades, it's become economical and practical to augment
 
 [Horace Dediu](https://twitter.com/asymco) popularized the term "Micromobility" to refer to this class of vehicle: small (under 500 kg), usually electric, often shared, and used for utilitarian rather than recreational travel. 
 
-I've had [some interest in this space for a while](https://metromotive.com/Hello-World/), and I thought I had a pretty good intuition] around the energy required to move these vehicles (and their riders) around. 
+I've had [some interest in this space for a while](https://metromotive.com/Hello-World/), and I thought I had a pretty good intuition around the energy required to move these vehicles (and their riders) around. 
 
 But an [article by Matthew Yglesias](https://www.vox.com/the-goods/2018/9/10/17631318/electric-scooters-bird-city-regulations-sustainability) on the advantages of electric scooters—in this case over a combination of walking and transit—got me doing some math, and underscored just how impressive their efficiency is. 
 
