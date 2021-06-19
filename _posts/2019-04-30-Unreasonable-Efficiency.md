@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Unreasonable Efficiency of Micromobility
+category: blog
 ---
 
 Over the last couple of decades, it's become economical and practical to augment bikes, scooters, skateboards, and a number of other types of small vehicles with battery-powered electric motors. 

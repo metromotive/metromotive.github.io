@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Inertial Electric Assist
+category: blog
 usemathjax: true
 ---
 
