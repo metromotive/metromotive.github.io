@@ -33,12 +33,12 @@ It's fair to point out that the car in question will cover about five times more
 
 So it's clear that shifting traffic from private cars and ride hailing services to small electric vehicles could have a huge impact on transportation energy use, while having a negligible impact on household energy use. And it might even pay for itself in avoided showers. 
 
-[^1]Reasonable answers seemed to range from one avoided shower per week to one avoided shower every few years. 
+[^1]: Reasonable answers seemed to range from one avoided shower per week to one avoided shower every few years. 
 
-[^2]Let me acknowledge that watt hours per minute is kind of a weird combination of units, so if you prefer watts, just multiply everything by 60. 
+[^2]: Let me acknowledge that watt hours per minute is kind of a weird combination of units, so if you prefer watts, just multiply everything by 60. 
 
-[^3]Of course a scooter in a dockless shared system might use quite a bit more energy after accounting for charging- and rebalancing-related transportation.
+[^3]: Of course a scooter in a dockless shared system might use quite a bit more energy after accounting for charging- and rebalancing-related transportation.
 
-[^4]Interestingly, a hot shower and a freeway drive in an efficient car use about the same amount of energy per minute. 
+[^4]: Interestingly, a hot shower and a freeway drive in an efficient car use about the same amount of energy per minute. 
 
-[^5]This is mostly because it's *not* all about aerodynamic drag (drag area is actually pretty much the same in this comparison). There's some energy involved in climate-controlling the cabin, but it's mostly a relative of the "tyranny of the rocket equation", where the weight required to achieve and safely manage high speeds snowballs on itself.  
+[^5]: This is mostly because it's *not* all about aerodynamic drag (drag area is actually pretty much the same in this comparison). There's some energy involved in climate-controlling the cabin, but it's mostly a relative of the "tyranny of the rocket equation", where the weight required to achieve and safely manage high speeds snowballs on itself.  
