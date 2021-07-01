@@ -15,7 +15,7 @@ What follows is a combination of planning and specualtion for this build, but is
 
 ## Background
 
-An electric assist vehicle is one where an electric motor multiplies the effort of a human to propel the vehicle. That is to say it incorporates a controller that seeks to make $$F_{motor} = F_{human} \times gain$$. This type of control scheme is extremely common for electric bicycles, as it provides a very intuitive way of controlling the motor's output. 
+An electric assist vehicle is one where an electric motor multiplies the effort of a human to propel the vehicle. That is to say it incorporates a controller that seeks to make $$F_{motor} = F_{human} \cdot gain$$. This type of control scheme is extremely common for electric bicycles, as it provides a very intuitive way of controlling the motor's output. 
 
 One of the difficulties in building an electric assist vehicle is measuring the human input in a way that is simple, reliable, and inexpensive. In the example of electric-assist bicycles, sensors typically measure pedal torque or chain tension, either directly or indirectly[^1]. These sensors can be complicated—often requiring a rotating electrical signal to be connected to a non-rotating control system—and require careful calibration. 
 
@@ -29,7 +29,7 @@ $$am = F_{motor} + F_{human} + F_r + F_d$$
 
 Combining this with the basic equation of an electric assist vehicle, the desired force of the motor for the next time step can be calculated:
 
-$$F_{motor}' = gain \times (am - (F_r + F_d + F_{motor}))$$
+$$F_{motor}' = gain \cdot (am - (F_r + F_d + F_{motor}))$$
 
 ## Variables to be Measured or Estimated
 
