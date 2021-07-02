@@ -53,7 +53,7 @@ Modern motor controllers as a matter of course measure (and sometimes control) t
 
 ### Rolling Resistance and Friction
 
-The rolling resistance and friction present in a wheeled vehicle is fairly predictable, usually containing a constant component (present at all but zero speed) along with a component that increases more or less linearly with speed. Speed is another variable that is measured by modern motor controllers as part of their normal operation. 
+The rolling resistance and friction present in a wheeled vehicle is fairly predictable, consisting of a coefficient multiplied by the normal force. The normal force, in turn is proportional to the mass (at least on a level surface—an angle measurement may be useful here). 
 
 ### Aerodynamic Drag
 
