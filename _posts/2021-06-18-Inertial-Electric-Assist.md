@@ -88,7 +88,7 @@ This is sufficient to determine (at low speeds and on level ground) whether the 
 
 The control loop can be enhanced with:
 
-- An estimate of rolling friction (based on the motor speed)
+- An estimate of rolling friction (based on the mass)
 - An estimate of aerodynamic drag (based on the apparent wind speed, or the square of the motor speed assuming still air)
 
 On major enhancement would be the ability to detecting when the human force inputs are likely zero. For an electric-assist bicycle, the variation in torque due to the instantaneous pedal position could be detected when present, and thus when absent. Braking forces may be harder to detect since they don’t vary on a regular periodic basis, and thus it could be difficult to discriminate between an unknown braking force and an error in estimating one or more other variables. On the other hand, brake controls can be fitted with switches to detect when they are not being applied. 
