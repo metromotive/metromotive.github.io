@@ -21,7 +21,7 @@ One of the difficulties in building an electric assist vehicle is measuring the 
 
 An alternative is to instead measure the acceleration of the vehicle using an inexpensive inertial measurement unit (IMU) circuit, and then measure, estimate, or be told the (gross) mass of the vehicle. Via Newton’s second law, we can arrive at the sum total of all of the forces acting on the vehicle. We then have to subtract all of the non-human forces applied to the vehicle to arrive at the human contribution to the propulsion force. 
 
-The forces acting on a typical vehicle will be force from the propulsion and braking system ($$F_p$$), resistance from friction ($$F_r$$, proportional to velocity), and resistance from whatever fluid the vehicle is moving through ($$F_d$$, proportional to the square of velocity). The force of gravity also plays a role, but because an IMU measures gravity as part of the overall acceleration, we can ignore it for purposes of this discussion. 
+The forces acting on a typical vehicle will be force from the propulsion and braking system ($$F_p$$), resistance from friction ($$F_r$$, proportional to the weight on the wheels), and resistance from whatever fluid the vehicle is moving through ($$F_d$$, proportional to the square of velocity). The force of gravity also plays a role, but because an IMU measures gravity as part of the overall acceleration, we can ignore it for purposes of this discussion. 
 
 For an electric assist vehicle, we also want to decompose the propulsion force into the component provided by the motor ($$F_{motor}$$) and the part provided by the human ($$F_{human}$$), or requested by the human via their control over the friction brakes). So the overall equation is:
 
